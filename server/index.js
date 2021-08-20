@@ -11,7 +11,11 @@ app.use(express.json({limit: '10mb'}));
 app.use(useragent.express());
 
 app.post('/record/:accountId/:mobile/:uuid',
-    fileUpload(), async (req, res) => {
+    fileUpload({
+      limits: {
+        fileSize: 50 * 1024 * 1024,
+      },
+    }), async (req, res) => {
       try {
         const {accountId, mobile, uuid} = req.params;
         console.log('POST record', {accountId, mobile, uuid});
@@ -62,7 +66,11 @@ app.post('/event/:accountId/:mobile/:uuid', async (req, res) => {
 });
 
 app.post('/log/:accountId/:mobile',
-    fileUpload(), async (req, res) => {
+    fileUpload({
+      limits: {
+        fileSize: 50 * 1024 * 1024,
+      },
+    }), async (req, res) => {
     try {
       const {accountId, mobile} = req.params;
       console.log('POST log:', {accountId, mobile});
