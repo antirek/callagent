@@ -4,6 +4,8 @@
 
 ### Realme
 
+- Realme C21
+- Realme 8 Pro
 - Realme C2
 - Realme C3
 - Realme 3 Pro
@@ -11,14 +13,15 @@
 - Realme X
 - Realme 5 Pro
 - Realme x2 Pro
-- Realme 3,
-- Realme 3i, 
+- Realme 3
+- Realme 3i
 - Realme 5
 - Realme 5s
 - Realme 2 pro
 
 ### OPPO
 
+- OPPO A54
 - OPPO Reno
 - OPPO Reno 10x Zoom
 - OPPO Reno 2
@@ -33,6 +36,15 @@
 - OPPO A9
 - OPPO A5
 
+### Tecno
+
+- Tecno KF6N Spark 7
+- Tecno CD6 Camon 15 Air
+
+### Itel
+
+- Itel Vision 1 Pro DS
+
 ### Xiaomi
 
 - Xiaomi Redmi Note 8T (с обновлением MIUI 12)
@@ -40,4 +52,3 @@
 ### Neffos
 
 - Neffos C9s
-
