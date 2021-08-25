@@ -3,12 +3,12 @@
 
 ### Основной экран
 
-![](images/screen_main.jpg)
+![](images/screenshots/screen_main.jpg)
 
 ### Настройки
 
-![](images/screen_settings.jpg)
+![](images/screenshots/screen_settings.jpg)
 
 ### Звонки
 
-![](images/screen_history.jpg)
+![](images/screenshots/screen_history.jpg)
