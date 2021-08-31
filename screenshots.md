@@ -12,3 +12,7 @@
 ### Звонки
 
 ![](images/screenshots/screen_history.jpg)
+
+### Уведомление на экране
+
+![](images/screenshots/screen_notify.jpg)
