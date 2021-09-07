@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/account_header">
+        <EditTextPreference
+            app:key="account_id"
+            app:title="@string/account_id_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="number"
+            app:title="@string/number_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="uploadUrl"
+            app:title="@string/uploadUrl"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/record_header">
+        <SwitchPreference
+            app:defaultValue="true"
+            app:key="isRecordEnabled"
+            app:title="@string/isRecordEnabled" />
+        <ListPreference
+            app:defaultValue="default"
+            app:dependency="isRecordEnabled"
+            app:entries="@array/templateForModelEntries"
+            app:entryValues="@array/templateForModelValues"
+            app:key="templateForModel"
+            app:title="@string/templateForModel"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:defaultValue="/storage/emulated/0/CallRecorder/"
+            app:dependency="templateForModel"
+            app:key="pathToRecordDir"
+            app:title="@string/pathToRecordDir"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/logging_header">
+        <Preference
+            app:layout="@layout/logging"
+            app:key="loggingButtons" />
+        <SwitchPreference
+            app:defaultValue="false"
+            app:key="startOnBoot"
+            app:title="@string/start_on_boot" />
+    </PreferenceCategory>
+</PreferenceScreen>

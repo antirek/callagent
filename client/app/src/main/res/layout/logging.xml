@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <Button
+        android:id="@+id/loggingClear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="5"
+        android:onClick="logClearButtonClick"
+        android:text="@string/loggingClear" />
+
+    <Button
+        android:id="@+id/loggingSend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:onClick="logSendButtonClick"
+        android:text="@string/loggingSend" />
+</LinearLayout>

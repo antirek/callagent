@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">CallAgent</string>
+    <string name="app_notification_text">Сервис запущен</string>
+    <string name="app_upload_notification">Загрузка запущена</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_get_settings">Получить настройки</string>
+    <string name="action_view_history">История</string>
+    <string name="button_start_record">Запустить сервис</string>
+    <string name="button_stop_record">Остановить сервис</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="history_activity_title">Звонки</string>
+
+    <!-- Preference Titles -->
+    <string name="account_header">Подключение</string>
+    <string name="record_header">Запись</string>
+    <string name="logging_header">Дополнительно</string>
+
+
+    <!-- Records Preferences -->
+    <string name="templateForModel">Директория записей</string>
+    <string name="start_on_boot">Запуск при загрузке</string>
+    <string name="isRecordEnabled">Включить поиск записей звонков в директории</string>
+
+    <!-- Account Preferences -->
+    <string name="account_id_title">Аккаунт</string>
+    <string name="number_title">Телефон</string>
+    <string name="uploadUrl">Адрес загрузки данных</string>
+    <string name="message_title">CallAgent</string>
+    <string name="pathToRecordDir">Произвольный путь</string>
+    <string name="loggingEnabled">Логирование включено</string>
+    <string name="loggingSend">Передать лог-файл</string>
+    <string name="clearCalls">Очистить историю звонков</string>
+    <string name="loggingClear">Очистить лог-файл</string>
+</resources>

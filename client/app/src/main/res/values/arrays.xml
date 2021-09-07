@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="templateForModelEntries">
+        <item>Произвольный путь</item>
+        <item>Realme</item>
+        <item>Asus Zenfone</item>
+    </string-array>
+    <string-array name="templateForModelValues">
+        <item>default</item>
+        <item>realme</item>
+        <item>asus_zenfone</item>
+    </string-array>
+</resources>
